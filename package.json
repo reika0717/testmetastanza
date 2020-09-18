@@ -1,0 +1,13 @@
+{
+  "name": "testmetastanza",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "https://github.com/reika0717/testmetastanza",
+  "dependencies": {
+    "togostanza": "github:togostanza/togostanza"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "private": true
+}
