@@ -1,0 +1,19 @@
+<p>{{greeting}}</p>
+<table>
+  <thead>
+    <tr>
+      {{#each header}}
+        <th>{{this}}</th>
+      {{/each}}
+    </tr>
+  </thead>
+  <tbody>
+    {{#each row}}
+    <tr>
+      {{#each col}}
+        <td>{{this}}</td>
+      {{/each}}
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

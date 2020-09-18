@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "stanza": "http://togostanza.org/resource/stanza#"
+  },
+  "@id": "meta_table",
+  "stanza:label": "Meta table",
+  "stanza:definition": "",
+  "stanza:parameter": [
+    {
+      "stanza:key": "say-to",
+      "stanza:example": "world",
+      "stanza:description": "who to say hello to",
+      "stanza:required": false
+    }
+  ],
+  "stanza:about-link-placement": "bottom-right",
+  "stanza:style": [],
+  "stanza:usage": "<togostanza-meta_table></togostanza-meta_table>",
+  "stanza:type": "Stanza",
+  "stanza:context": "Environment",
+  "stanza:display": "Table",
+  "stanza:provider": "PENQE",
+  "stanza:license": "MIT",
+  "stanza:author": "reika0717",
+  "stanza:address": "hirahara@penqe.com",
+  "stanza:contributor": [],
+  "stanza:created": "2020-09-18",
+  "stanza:updated": "2020-09-18"
+}
