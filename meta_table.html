@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Meta table</title>
+
+    <script type="module" src="./meta_table.js" async></script>
+
+    <script type="module">
+      import createHelpApp from './-togostanza/help-app.js';
+
+      const metadata = {"@context":{"stanza":"http://togostanza.org/resource/stanza#"},"@id":"meta_table","stanza:label":"Meta table","stanza:definition":"","stanza:parameter":[{"stanza:key":"say-to","stanza:example":"world","stanza:description":"who to say hello to","stanza:required":false}],"stanza:about-link-placement":"bottom-right","stanza:style":[],"stanza:usage":"<togostanza-meta_table></togostanza-meta_table>","stanza:type":"Stanza","stanza:context":"Environment","stanza:display":"Table","stanza:provider":"PENQE","stanza:license":"MIT","stanza:author":"reika0717","stanza:address":"hirahara@penqe.com","stanza:contributor":[],"stanza:created":"2020-09-18","stanza:updated":"2020-09-18"};
+      const readme   = "# Meta table\n\nStanza description goes here. Edit `stanzas/meta_table/README.md` to update.\n";
+
+      createHelpApp({metadata, readme}).mount('body');
+    </script>
+  </head>
+
+  <body>
+  </body>
+</html>
